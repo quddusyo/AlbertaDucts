@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b8781f3.css",
+    "main.js": "/static/js/main.69969c9d.js",
+    "static/media/albertaducts.mp4": "/static/media/albertaducts.f9f703292b9fec3562c7.mp4",
+    "static/media/beforeafter.png": "/static/media/beforeafter.be74f0719dc9e5513c16.png",
+    "static/media/coldairReturn.png": "/static/media/coldairReturn.4248c13bc1ee7ca75466.png",
+    "static/media/furnaceCleaning.png": "/static/media/furnaceCleaning.49c3e7e1a62701917373.png",
+    "static/media/ductCleaning.png": "/static/media/ductCleaning.1816c46ef0315411245b.png",
+    "static/media/sanitization.png": "/static/media/sanitization.058e308c33ebc1bec613.png",
+    "static/media/brushing.png": "/static/media/brushing.71b9ad1faf24d2b3e5f0.png",
+    "static/media/logo.png": "/static/media/logo.933e5868f640c8c8224c.png",
+    "static/media/logo_white.png": "/static/media/logo_white.ceb795bff5eee6f76766.png",
+    "index.html": "/index.html",
+    "main.4b8781f3.css.map": "/static/css/main.4b8781f3.css.map",
+    "main.69969c9d.js.map": "/static/js/main.69969c9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b8781f3.css",
+    "static/js/main.69969c9d.js"
+  ]
+}

@@ -1,0 +1,228 @@
+.home__container {
+  width: auto;
+}
+
+/* global class for allignment */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+/* end */
+.home__intro__container {
+  min-height: 105vh;
+  width: auto;
+  position: relative;
+}
+.home__intro__container > div > video {
+  height: 105vh;
+  width: auto;
+  position: relative; /* keep video as a background in document flow*/
+  z-index: -1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  /* top: 100px; */
+}
+.home__intro__header {
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 30%;
+  left: 5%;
+}
+.home__intro__header > h2 {
+  color: var(--mainColor);
+  font-size: 36px;
+  /* font-size: 66px //for med-large sizes; */
+  font-weight: 900;
+}
+
+.home__intro__subHeader {
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 90%;
+}
+
+.home__intro__subHeader > h3 {
+  margin: 50px 15px 0 0;
+  color: var(--mainTextColor);
+  font-family: Rowdies;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.home__intro__btns {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  top: 180%;
+}
+.home__intro_btn {
+  text-transform: uppercase;
+  padding: 14px;
+  margin: 0px 20px 20px 15px;
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--mainColor);
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 3px solid rgb(255, 255, 255, 0.8);
+  font-family: Rowdies;
+  font-weight: 700;
+  border-radius: 3px;
+}
+.home_intro_btn:hover {
+  color: var(--mainColorDark);
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: 0.2s ease-in;
+}
+
+
+.service__format {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+
+
+/* Home Banner Css Styles Start (before media queries: starting at 375px) */
+
+.home__banners {
+  background-color: var(--tertiaryColor);
+  border-top-left-radius: 170px;
+  border-bottom-right-radius: 120px;
+  height: 280px;
+  width: 100vw;
+  display: flex;
+  align-items: center; /* vertical alignment */
+  justify-content: center; /* horizontal alignment */
+  text-align: center;
+  margin: 50px 0;
+}
+.home__banners > .home__banners__container > h2 {
+  font-size: 42px;
+  color: var(--mainColor);
+  font-family: Rowdies;
+}
+
+/* Home Banner Css Styles End (before media queries: starting at 360px) */
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 375px) {
+  .home__intro__container > div > video {
+    height: 150vh;
+  }
+  .home__intro__header > h2 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .home__intro__btns {
+    top: 145%;
+  }
+  .home_intro_btn {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .home__intro__subHeader > h3 {
+    margin-top: 75px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .home__intro__header {
+    top: 25%;
+  }
+  .home__intro__btns {
+    top: 180%;
+  }
+  .home__intro__header > h2 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+  .home__intro__subHeader {
+    top: 100%;
+  }
+  .home__intro__subHeader > h3 {
+    font-size: 22px;
+  }
+  .home_intro_btn {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+/* medium - large size devices css */
+@media screen and (min-width: 540px) {
+  .home__intro__btns {
+    top: 220%;
+    align-items: center;
+    flex-direction: row;
+  }
+  .home_intro_btn {
+    border: 5px solid rgb(255, 255, 255, 0.8); /* increasing width of border */
+  }
+}
+@media screen and (min-width: 660px) {
+  .home__intro__btns {
+    top: 240%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home__intro__container > div > video {
+    height: 90vh;
+  }
+  .home__intro__header {
+    top: 40%;
+  }
+  .home__intro__subHeader {
+    top: 100%;
+  }
+  .home__intro__btns {
+    top: 220%;
+  }
+  .home_intro_btn {
+    padding: 18px;
+    border: 4px solid mainColor;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .service__format {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 912px) {
+  .home__intro__container > div > video {
+    height: 80vh;
+  }
+  .home__intro__btns {
+    top: 230%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home__intro__container > div > video {
+    height: 130vh;
+  }
+  .home__intro__header {
+    top: 45%;
+  }
+  .home__intro__subHeader {
+    top: 90%;
+  }
+}
