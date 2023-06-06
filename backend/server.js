@@ -1,5 +1,6 @@
 const express = require('express');
 var cors = require('cors');
+require("dotenv").config(); // to recognize .env files
 const Stripe = require('stripe');
 const stripe = Stripe(process.env.REACT_APP_SECRET_KEY);
 const app = express();

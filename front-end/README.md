@@ -39,6 +39,7 @@ $ yarn start
 #simple CSS increases overall website when done with contrast, planning, etc.
 #microanimation which bring sites to life (navbar after certain screen length becomes solid color, button hover affects)
 #should leave a nice margin between block components elements, in other words, leaving whitespace is good.
+#Stripe API checkout functonality.
 
 ## Tips
 

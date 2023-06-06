@@ -56,8 +56,7 @@ function App() {
         <Route path='/success' element={<><Nav /><Success /></>}/>
         <Route path='/cancel' element={<><Nav/><Cancel /></>}/>
         <Route path='about' element={<><Nav /><About /></>}/>
-        <Route path='contact' element={<><Nav /><Contact /></>}>
-        </Route>
+        <Route path='contact' element={<><Nav /><Contact /></>}/>
       </Routes>
       <FooterNav />
       <Footer />
