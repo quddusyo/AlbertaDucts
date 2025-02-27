@@ -6,14 +6,25 @@ to pull:
 git pull https://github.com/quddusyo/AlbertaDucts
 
 to push:
+```bash
 git commit -m "added xyz"
-git add .
+```
+```bash
+git add .folder_path
+```
+```bash
 git push
+```
 
 to run:
 npm start
-
 firebase deploy commands:
+```bash
 firebase init
+```
+```bash
 npm run build
+```
+```bash
 firebase deploy
+```
