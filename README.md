@@ -15,4 +15,5 @@ npm start
 
 firebase deploy commands:
 firebase init
-firebase 
+npm run build
+firebase deploy
