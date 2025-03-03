@@ -22,6 +22,7 @@ firebase deploy commands:
 ```bash
 firebase init
 ```
+**NOTE: dont select single page app
 ```bash
 npm run build
 ```
